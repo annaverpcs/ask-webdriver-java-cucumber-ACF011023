@@ -1,0 +1,35 @@
+INFO 11:02:19:663 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 109.0.5414.74 (since Google Chrome 109 is installed in your machine)
+INFO 11:02:19:708 wdm.WebDriverManager getDriversFromXml:1077 Reading https://chromedriver.storage.googleapis.com/ to seek chromedriver
+INFO 11:02:20:627 wdm.Downloader downloadAndExtract:128 Downloading https://chromedriver.storage.googleapis.com/109.0.5414.74/chromedriver_mac64.zip
+INFO 11:02:23:824 wdm.Downloader extract:183 Extracting binary from compressed file chromedriver_mac64.zip
+INFO 11:02:24:069 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/109.0.5414.74/chromedriver
+INFO 12:39:43:092 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 109.0.5414.74 (since Google Chrome 109 is installed in your machine)
+INFO 12:39:43:131 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/109.0.5414.74/chromedriver
+INFO 12:42:09:623 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 109.0.5414.74 (since Google Chrome 109 is installed in your machine)
+INFO 12:42:09:650 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/109.0.5414.74/chromedriver
+INFO 12:46:06:701 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 109.0.5414.74 (since Google Chrome 109 is installed in your machine)
+INFO 12:46:06:734 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/109.0.5414.74/chromedriver
+INFO 12:48:06:780 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 109.0.5414.74 (since Google Chrome 109 is installed in your machine)
+INFO 12:48:06:806 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/109.0.5414.74/chromedriver
+INFO 10:08:20:872 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 109.0.5414.74 (since Google Chrome 109 is installed in your machine)
+INFO 10:08:20:902 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/109.0.5414.74/chromedriver
+INFO 10:56:48:125 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 109.0.5414.74 (since Google Chrome 109 is installed in your machine)
+INFO 10:56:48:157 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/109.0.5414.74/chromedriver
+INFO 11:00:57:721 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 109.0.5414.74 (since Google Chrome 109 is installed in your machine)
+INFO 11:00:57:754 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/109.0.5414.74/chromedriver
+INFO 11:26:34:095 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 109.0.5414.74 (since Google Chrome 109 is installed in your machine)
+INFO 11:26:34:117 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/109.0.5414.74/chromedriver
+INFO 11:36:51:495 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 109.0.5414.74 (since Google Chrome 109 is installed in your machine)
+INFO 11:36:51:522 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/109.0.5414.74/chromedriver
+INFO 11:37:50:919 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 109.0.5414.74 (since Google Chrome 109 is installed in your machine)
+INFO 11:37:50:950 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/109.0.5414.74/chromedriver
+INFO 11:44:50:967 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 109.0.5414.74 (since Google Chrome 109 is installed in your machine)
+INFO 11:44:51:004 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/109.0.5414.74/chromedriver
+INFO 11:44:57:107 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 109.0.5414.74 (since Google Chrome 109 is installed in your machine)
+INFO 11:44:57:115 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/109.0.5414.74/chromedriver
+INFO 11:46:14:462 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 109.0.5414.74 (since Google Chrome 109 is installed in your machine)
+INFO 11:46:14:511 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/109.0.5414.74/chromedriver
+INFO 11:46:20:327 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 109.0.5414.74 (since Google Chrome 109 is installed in your machine)
+INFO 11:46:20:335 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/109.0.5414.74/chromedriver
+INFO 11:46:25:399 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 109.0.5414.74 (since Google Chrome 109 is installed in your machine)
+INFO 11:46:25:406 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/109.0.5414.74/chromedriver

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Configuration status="INFO">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%p %d{HH:mm:ss:SSS} %c{2} %M:%L %m%n" />
+        </Console>
+        <File name="File" fileName="target/webdriver.log">
+            <PatternLayout pattern="%p %d{HH:mm:ss:SSS} %c{2} %M:%L %m%n" />
+        </File>
+    </Appenders>
+    <Loggers>
+        <Root level="INFO">
+            <AppenderRef ref="Console" />
+            <AppenderRef ref="File" />
+        </Root>
+    </Loggers>
+</Configuration>
