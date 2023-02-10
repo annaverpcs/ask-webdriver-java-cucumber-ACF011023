@@ -14,7 +14,7 @@ public class Hooks {
     public void scenarioStart() {
         TestContext.initialize();
         getDriver().manage().deleteAllCookies();
-    }
+  }
 
     @After(order = 0)
     public void scenarioEnd(Scenario scenario) {

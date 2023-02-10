@@ -23,25 +23,25 @@ Feature: Quote Test Scenarios
     Then element with xpath "//b[@id='location']" should not be displayed
 
   @quote2
-    Scenario: Verify Username field
+  Scenario: Verify Username field
      # Given I open url "https://skryabin.com/market/quote.html"
      # Then I should see page title as "Get a Quote"
       #Then I resize window to 1920 and 1080
-      Then element with xpath "//input[@name='username']" should be present
-      Then I type "A" into element with xpath "//input[@name='username']"
-      And I click on element with xpath "//button[@id='formSubmit']"
-      Then element with xpath "//label[@id='username-error']" should contain text "Please enter at least 2 characters."
-      Then I clear element with xpath "//input[@name='username']"
-      Then element with xpath "//label[@id='username-error']" should have text as "This field is required."
-      Then I type "Ab" into element with xpath "//input[@name='username']"
-      And I click on element with xpath "//button[@id='formSubmit']"
-      Then element with xpath "//label[@id='username-error']" should not be displayed
+    Then element with xpath "//input[@name='username']" should be present
+    Then I type "A" into element with xpath "//input[@name='username']"
+    And I click on element with xpath "//button[@id='formSubmit']"
+    Then element with xpath "//label[@id='username-error']" should contain text "Please enter at least 2 characters."
+    Then I clear element with xpath "//input[@name='username']"
+    Then element with xpath "//label[@id='username-error']" should have text as "This field is required."
+    Then I type "Ab" into element with xpath "//input[@name='username']"
+    And I click on element with xpath "//button[@id='formSubmit']"
+    Then element with xpath "//label[@id='username-error']" should not be displayed
 
   @quote3
   Scenario: Verify Name field
-      Then I click on element with xpath "//input[@id='name']"
-     Then element with xpath "//input[@id='firstName']" should be displayed
-     Then I type "First" into element with xpath "//input[@id='firstName']"
+    Then I click on element with xpath "//input[@id='name']"
+    Then element with xpath "//input[@id='firstName']" should be displayed
+    Then I type "First" into element with xpath "//input[@id='firstName']"
 
     Then element with xpath "//input[@id='middleName']" should be displayed
     Then I type "Middle" into element with xpath "//input[@id='middleName']"
@@ -69,6 +69,6 @@ Feature: Quote Test Scenarios
     Then I wait for element with xpath "//input[@id='name']" to be present
     Then element with xpath "//input[@id='name']" should have attribute "value" as "<FullName>"
     Examples:
-      |  FirstName | MiddleName | LastName | FullName |
-      | First | Middle | Last|First Middle Last       |
-    | | A | B | A B |
+      | FirstName | MiddleName | LastName | FullName          |
+      | First     | Middle     | Last     | First Middle Last |
+      |           | A          | B        | A B               |
