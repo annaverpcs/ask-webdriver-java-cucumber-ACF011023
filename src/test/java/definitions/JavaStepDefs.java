@@ -32,7 +32,7 @@ public class JavaStepDefs {
         int iSum = iNum1+iNum2;
         int iDif = iNum1-iNum2;
         int iPro = iNum1*iNum2;
-        float iDiv = iNum1/iNum2;
+        float iDiv = (float)iNum1/(float)iNum2;
         System.out.println(iNum1 + "+" + iNum2 + "="+iSum);
         System.out.println("the difference from "+ iNum1 +" and "+ iNum2 +" is "+ iDif);
         System.out.println(iPro);

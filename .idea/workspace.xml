@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57c2f924-8d49-4c85-8d2d-4c92586147b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ask-webdriver-java-cucumber-ACF011023.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ask-webdriver-java-cucumber-ACF011023.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/support/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/support/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/predefined.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/predefined.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/predefined.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/predefined.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/quote.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/quote.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/definitions/JavaStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/definitions/JavaStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/definitions/JavaStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/definitions/JavaStepDefs.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/support/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/support/Hooks.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/webdriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/webdriver.log" afterDir="false" />
     </list>
@@ -49,12 +45,32 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Example with arrays">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Email field validation">
+    <configuration name="Scenario: Email field validation" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/webdriver.feature" />
+      <option name="GLUE" value="support definitions" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="ask-webdriver-java-cucumber-ACF011023" />
+      <option name="NAME_FILTER" value="^Email field validation$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Email field validation$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Email field validation" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: Example with arrays" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/java.feature" />
@@ -115,38 +131,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Hello World" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="11" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <configuration name="Scenario: Load Web page and Verify page details" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/java.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/webdriver.feature" />
       <option name="GLUE" value="support definitions" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="ask-webdriver-java-cucumber-ACF011023" />
-      <option name="NAME_FILTER" value="^Hello World$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Hello World$&quot;" />
+      <option name="NAME_FILTER" value="^Load Web page and Verify page details$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Load Web page and Verify page details$&quot;" />
       <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Scenario: Hello World" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Search Engine for https://www.wiki.com/" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/predefined.feature" />
-      <option name="GLUE" value="support definitions" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="ask-webdriver-java-cucumber-ACF011023" />
-      <option name="NAME_FILTER" value="^Search Engine for https\:\/\/www\.wiki\.com\/$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Search Engine for https\:\/\/www\.wiki\.com\/$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Search Engine for https://www.wiki.com/" />
+      <option name="SUGGESTED_NAME" value="Scenario: Load Web page and Verify page details" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -159,19 +153,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Cucumber Java.Scenario: Hello World" />
-      <item itemvalue="Cucumber Java.Scenario: Search Engine for https://www.wiki.com/" />
       <item itemvalue="Cucumber Java.Scenario: Examples with strings" />
       <item itemvalue="Cucumber Java.Scenario: Examples with numbers" />
       <item itemvalue="Cucumber Java.Scenario: Example with arrays" />
+      <item itemvalue="Cucumber Java.Scenario: Load Web page and Verify page details" />
+      <item itemvalue="Cucumber Java.Scenario: Email field validation" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Example with arrays" />
+        <item itemvalue="Cucumber Java.Scenario: Email field validation" />
+        <item itemvalue="Cucumber Java.Scenario: Load Web page and Verify page details" />
         <item itemvalue="Cucumber Java.Scenario: Examples with numbers" />
+        <item itemvalue="Cucumber Java.Scenario: Example with arrays" />
         <item itemvalue="Cucumber Java.Scenario: Examples with strings" />
-        <item itemvalue="Cucumber Java.Scenario: Hello World" />
-        <item itemvalue="Cucumber Java.Scenario: Search Engine for https://www.wiki.com/" />
       </list>
     </recent_temporary>
   </component>
