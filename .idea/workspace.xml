@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57c2f924-8d49-4c85-8d2d-4c92586147b0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/ask-webdriver-java-cucumber-ACF011023.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ask-webdriver-java-cucumber-ACF011023.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_02_2023_20_05__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_02_2023_20_05__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/java.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/java.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/predefined.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/predefined.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/quote.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/quote.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/webdriver.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/webdriver.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/definitions/JavaStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/definitions/JavaStepDefs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/definitions/webDriverStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/definitions/webDriverStepDefs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/support/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/support/Hooks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/webdriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/webdriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Mikhail_S_ACF-871.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Mikhail_S_ACF-871.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Mikhail_S_ACF-898.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Mikhail_S_ACF-898.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Mikhail_S_ACF-951.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Mikhail_S_ACF-951.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Mikhail_S_HomePage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Mikhail_S_HomePage.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
