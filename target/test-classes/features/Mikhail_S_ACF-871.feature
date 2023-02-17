@@ -10,5 +10,3 @@
 #scenario for https://www.wiki.com/
 #scenario for https://www.givewater.com/
 #scenario for https://ekoru.org/
-  #TestSulima_M
-  #TestSulima_M2

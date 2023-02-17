@@ -19,6 +19,3 @@
 #• 3rd party agreement acceptance
 #• Date
 #Test Case 8: Submit the form and verify the data. Validate that after form submission entered fields values are present on the page. Validate that password is not displayed on the page
-
-  #TestSulima_M
-  #TestSulima_M2
