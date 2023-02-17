@@ -1,0 +1,19 @@
+<changelist name="Uncommitted_changes_before_rebase_[Changes]" date="1676601227563" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before rebase [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="target/test-classes/definitions/JavaStepDefs.class" />
+    <option name="AFTER_PATH" value="target/test-classes/definitions/JavaStepDefs.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/JavaStepDefs.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/test-classes/definitions/webDriverStepDefs.class" />
+    <option name="AFTER_PATH" value="target/test-classes/definitions/webDriverStepDefs.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/webDriverStepDefs.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/test-classes/support/Hooks.class" />
+    <option name="AFTER_PATH" value="target/test-classes/support/Hooks.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/Hooks.class" />
+  </binary>
+</changelist>

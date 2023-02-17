@@ -38,6 +38,8 @@ Feature: Smoke steps
     Then I should see page title as "Wiki.com"
     Then element with xpath "//*[contains(text(),'Cucumber')]" should contain text "Cucumber"
 
+#TestSulima_M
+  #TestSulima_M
 
 
 
