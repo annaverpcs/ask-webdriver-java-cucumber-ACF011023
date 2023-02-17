@@ -26,3 +26,6 @@
       @java4
       Scenario: Example with arrays
         Given I want to print all days of the week
+
+        #TestSulima_M
+    #TestSulima_M2

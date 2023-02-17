@@ -1,0 +1,478 @@
+Index: src/test/resources/features/Mikhail_S_ACF-951.feature
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/resources/features/Mikhail_S_ACF-951.feature b/src/test/resources/features/Mikhail_S_ACF-951.feature
+new file mode 100644
+--- /dev/null	(date 1676606683227)
++++ b/src/test/resources/features/Mikhail_S_ACF-951.feature	(date 1676606683227)
+@@ -0,0 +1,2 @@
++#Automate test set based on "Create Test set ..." assignments in Sprint 1Dear
++  #TestSulima_M
+\ No newline at end of file
+Index: src/test/resources/features/Mikhail_S_ACF-898.feature
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/resources/features/Mikhail_S_ACF-898.feature b/src/test/resources/features/Mikhail_S_ACF-898.feature
+new file mode 100644
+--- /dev/null	(date 1676606683234)
++++ b/src/test/resources/features/Mikhail_S_ACF-898.feature	(date 1676606683234)
+@@ -0,0 +1,23 @@
++#Test Case 1:
++#Validate responsive UI behavior.
++#Verify that Application Section has Location/Date/Time for Desktop and Tablet layouts but those disappear in Phone layouts
++#Test Case 2: Fill out and validate “Username” field. Validate minimal “Username” field length requirement as 2 characters
++#Test Case 3: Validate” Email” field behavior Validate that email field accepts only valid email addresses.
++#Test Case 4: Fill out and validate “Password” set of fields. Validate that Confirm Password is disabled if Password field is empty.
++#Test Case 5:
++#Validate “Name” field behavior Modal dialog: verify that upon clicking inside of Name field popup dialog appears.
++#Name concatenation: verify that after putting First Name, Middle Name, Last Name, it concatenates it correctly and puts the value in the Name field
++#Test Case 6: Validate that Accepting Privacy Policy is required to submit the form, then check the field
++#Test Case 7 (optional):
++#Try entering the following non-required fields in the order:
++#• Phone Number
++#• Country of Origin
++#• Gender
++#• Allowed to Contact?
++#• Address
++#• Car Make
++#• 3rd party agreement acceptance
++#• Date
++#Test Case 8: Submit the form and verify the data. Validate that after form submission entered fields values are present on the page. Validate that password is not displayed on the page
++
++  #TestSulima_M
+\ No newline at end of file
+Index: src/test/resources/features/Mikhail_S_ACF-871.feature
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/resources/features/Mikhail_S_ACF-871.feature b/src/test/resources/features/Mikhail_S_ACF-871.feature
+new file mode 100644
+--- /dev/null	(date 1676606683214)
++++ b/src/test/resources/features/Mikhail_S_ACF-871.feature	(date 1676606683214)
+@@ -0,0 +1,13 @@
++#Automate search for the following search engines:
++
++#scenario for http://gibiru.com
++#scenario for https://duckduckgo.com
++#scenario for https://swisscows.com
++#scenario for https://www.searchencrypt.com
++#scenario for https://www.startpage.com
++#scenario for https://www.yandex.com
++#scenario for https://www.ecosia.org
++#scenario for https://www.wiki.com/
++#scenario for https://www.givewater.com/
++#scenario for https://ekoru.org/
++  #TestSulima_M
+\ No newline at end of file
+Index: target/webdriver.log
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>INFO 11:02:19:663 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 109.0.5414.74 (since Google Chrome 109 is installed in your machine)\r\nINFO 11:02:19:708 wdm.WebDriverManager getDriversFromXml:1077 Reading https://chromedriver.storage.googleapis.com/ to seek chromedriver\r\nINFO 11:02:20:627 wdm.Downloader downloadAndExtract:128 Downloading https://chromedriver.storage.googleapis.com/109.0.5414.74/chromedriver_mac64.zip\r\nINFO 11:02:23:824 wdm.Downloader extract:183 Extracting binary from compressed file chromedriver_mac64.zip\r\nINFO 11:02:24:069 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/109.0.5414.74/chromedriver\r\nINFO 12:39:43:092 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 109.0.5414.74 (since Google Chrome 109 is installed in your machine)\r\nINFO 12:39:43:131 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/109.0.5414.74/chromedriver\r\nINFO 12:42:09:623 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 109.0.5414.74 (since Google Chrome 109 is installed in your machine)\r\nINFO 12:42:09:650 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/109.0.5414.74/chromedriver\r\nINFO 12:46:06:701 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 109.0.5414.74 (since Google Chrome 109 is installed in your machine)\r\nINFO 12:46:06:734 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/109.0.5414.74/chromedriver\r\nINFO 12:48:06:780 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 109.0.5414.74 (since Google Chrome 109 is installed in your machine)\r\nINFO 12:48:06:806 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/109.0.5414.74/chromedriver\r\nINFO 10:08:20:872 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 109.0.5414.74 (since Google Chrome 109 is installed in your machine)\r\nINFO 10:08:20:902 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/109.0.5414.74/chromedriver\r\nINFO 10:56:48:125 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 109.0.5414.74 (since Google Chrome 109 is installed in your machine)\r\nINFO 10:56:48:157 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/109.0.5414.74/chromedriver\r\nINFO 11:00:57:721 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 109.0.5414.74 (since Google Chrome 109 is installed in your machine)\r\nINFO 11:00:57:754 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/109.0.5414.74/chromedriver\r\nINFO 11:26:34:095 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 109.0.5414.74 (since Google Chrome 109 is installed in your machine)\r\nINFO 11:26:34:117 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/109.0.5414.74/chromedriver\r\nINFO 11:36:51:495 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 109.0.5414.74 (since Google Chrome 109 is installed in your machine)\r\nINFO 11:36:51:522 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/109.0.5414.74/chromedriver\r\nINFO 11:37:50:919 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 109.0.5414.74 (since Google Chrome 109 is installed in your machine)\r\nINFO 11:37:50:950 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/109.0.5414.74/chromedriver\r\nINFO 11:44:50:967 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 109.0.5414.74 (since Google Chrome 109 is installed in your machine)\r\nINFO 11:44:51:004 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/109.0.5414.74/chromedriver\r\nINFO 11:44:57:107 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 109.0.5414.74 (since Google Chrome 109 is installed in your machine)\r\nINFO 11:44:57:115 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/109.0.5414.74/chromedriver\r\nINFO 11:46:14:462 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 109.0.5414.74 (since Google Chrome 109 is installed in your machine)\r\nINFO 11:46:14:511 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/109.0.5414.74/chromedriver\r\nINFO 11:46:20:327 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 109.0.5414.74 (since Google Chrome 109 is installed in your machine)\r\nINFO 11:46:20:335 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/109.0.5414.74/chromedriver\r\nINFO 11:46:25:399 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 109.0.5414.74 (since Google Chrome 109 is installed in your machine)\r\nINFO 11:46:25:406 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/109.0.5414.74/chromedriver\r\nINFO 09:56:32:722 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 110.0.5481.77 (since Google Chrome 110 is installed in your machine)\r\nINFO 09:56:32:747 wdm.WebDriverManager getDriversFromXml:1077 Reading https://chromedriver.storage.googleapis.com/ to seek chromedriver\r\nINFO 09:56:33:234 wdm.Downloader downloadAndExtract:128 Downloading https://chromedriver.storage.googleapis.com/110.0.5481.77/chromedriver_mac64.zip\r\nINFO 09:56:36:182 wdm.Downloader extract:183 Extracting binary from compressed file chromedriver_mac64.zip\r\nINFO 09:56:36:360 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/110.0.5481.77/chromedriver\r\nINFO 10:20:40:668 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 110.0.5481.77 (since Google Chrome 110 is installed in your machine)\r\nINFO 10:20:40:705 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/110.0.5481.77/chromedriver\r\nINFO 10:25:16:808 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 110.0.5481.77 (since Google Chrome 110 is installed in your machine)\r\nINFO 10:25:16:849 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/110.0.5481.77/chromedriver\r\nINFO 10:25:56:641 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 110.0.5481.77 (since Google Chrome 110 is installed in your machine)\r\nINFO 10:25:56:698 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/110.0.5481.77/chromedriver\r\nINFO 10:40:12:075 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 110.0.5481.77 (since Google Chrome 110 is installed in your machine)\r\nINFO 10:40:12:105 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/110.0.5481.77/chromedriver\r\nINFO 10:41:02:506 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 110.0.5481.77 (since Google Chrome 110 is installed in your machine)\r\nINFO 10:41:02:537 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/110.0.5481.77/chromedriver\r\nINFO 10:44:56:374 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 110.0.5481.77 (since Google Chrome 110 is installed in your machine)\r\nINFO 10:44:56:409 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/110.0.5481.77/chromedriver\r\nINFO 11:00:44:084 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 110.0.5481.77 (since Google Chrome 110 is installed in your machine)\r\nINFO 11:00:44:140 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/110.0.5481.77/chromedriver\r\nINFO 10:44:59:771 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 110.0.5481.77 (since Google Chrome 110 is installed in your machine)\r\nINFO 10:44:59:794 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/110.0.5481.77/chromedriver\r\nINFO 10:52:23:831 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 110.0.5481.77 (since Google Chrome 110 is installed in your machine)\r\nINFO 10:52:23:853 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/110.0.5481.77/chromedriver\r\nINFO 10:54:02:050 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 110.0.5481.77 (since Google Chrome 110 is installed in your machine)\r\nINFO 10:54:02:075 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/110.0.5481.77/chromedriver\r\nINFO 10:55:05:899 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 110.0.5481.77 (since Google Chrome 110 is installed in your machine)\r\nINFO 10:55:05:929 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/110.0.5481.77/chromedriver\r\nINFO 11:01:13:540 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 110.0.5481.77 (since Google Chrome 110 is installed in your machine)\r\nINFO 11:01:13:560 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/110.0.5481.77/chromedriver\r\nINFO 11:15:36:296 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 110.0.5481.77 (since Google Chrome 110 is installed in your machine)\r\nINFO 11:15:36:317 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/110.0.5481.77/chromedriver\r\nINFO 11:48:27:423 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 110.0.5481.77 (since Google Chrome 110 is installed in your machine)\r\nINFO 11:48:27:459 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/110.0.5481.77/chromedriver\r\nINFO 11:49:04:832 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 110.0.5481.77 (since Google Chrome 110 is installed in your machine)\r\nINFO 11:49:04:859 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/110.0.5481.77/chromedriver\r\nINFO 12:00:48:000 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 110.0.5481.77 (since Google Chrome 110 is installed in your machine)\r\nINFO 12:00:48:029 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/110.0.5481.77/chromedriver\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/target/webdriver.log b/target/webdriver.log
+--- a/target/webdriver.log	(revision a44909305d033eed5d219c8432ea57fd58007e25)
++++ b/target/webdriver.log	(date 1676601227260)
+@@ -70,3 +70,31 @@
+ INFO 11:49:04:859 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/110.0.5481.77/chromedriver
+ INFO 12:00:48:000 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 110.0.5481.77 (since Google Chrome 110 is installed in your machine)
+ INFO 12:00:48:029 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as /Users/averkhovskaya/.m2/repository/webdriver/chromedriver/mac64/110.0.5481.77/chromedriver
++INFO 21:14:43:284 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 109.0.5414.74 (since Google Chrome 109 is installed in your machine)
++INFO 21:14:43:301 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as C:\Users\jolie\.m2\repository\webdriver\chromedriver\win32\109.0.5414.74\chromedriver.exe
++INFO 21:14:50:197 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 109.0.5414.74 (since Google Chrome 109 is installed in your machine)
++INFO 21:14:50:200 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as C:\Users\jolie\.m2\repository\webdriver\chromedriver\win32\109.0.5414.74\chromedriver.exe
++INFO 21:14:58:119 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 109.0.5414.74 (since Google Chrome 109 is installed in your machine)
++INFO 21:14:58:126 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as C:\Users\jolie\.m2\repository\webdriver\chromedriver\win32\109.0.5414.74\chromedriver.exe
++INFO 21:16:07:933 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 109.0.5414.74 (since Google Chrome 109 is installed in your machine)
++INFO 21:16:07:949 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as C:\Users\jolie\.m2\repository\webdriver\chromedriver\win32\109.0.5414.74\chromedriver.exe
++INFO 21:16:11:787 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 109.0.5414.74 (since Google Chrome 109 is installed in your machine)
++INFO 21:16:11:790 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as C:\Users\jolie\.m2\repository\webdriver\chromedriver\win32\109.0.5414.74\chromedriver.exe
++INFO 21:16:15:095 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 109.0.5414.74 (since Google Chrome 109 is installed in your machine)
++INFO 21:16:15:098 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as C:\Users\jolie\.m2\repository\webdriver\chromedriver\win32\109.0.5414.74\chromedriver.exe
++INFO 21:16:18:628 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 109.0.5414.74 (since Google Chrome 109 is installed in your machine)
++INFO 21:16:18:630 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as C:\Users\jolie\.m2\repository\webdriver\chromedriver\win32\109.0.5414.74\chromedriver.exe
++INFO 21:16:22:025 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 109.0.5414.74 (since Google Chrome 109 is installed in your machine)
++INFO 21:16:22:027 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as C:\Users\jolie\.m2\repository\webdriver\chromedriver\win32\109.0.5414.74\chromedriver.exe
++INFO 21:16:37:056 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 109.0.5414.74 (since Google Chrome 109 is installed in your machine)
++INFO 21:16:37:070 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as C:\Users\jolie\.m2\repository\webdriver\chromedriver\win32\109.0.5414.74\chromedriver.exe
++INFO 21:16:39:227 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 109.0.5414.74 (since Google Chrome 109 is installed in your machine)
++INFO 21:16:39:230 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as C:\Users\jolie\.m2\repository\webdriver\chromedriver\win32\109.0.5414.74\chromedriver.exe
++INFO 21:16:41:023 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 109.0.5414.74 (since Google Chrome 109 is installed in your machine)
++INFO 21:16:41:026 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as C:\Users\jolie\.m2\repository\webdriver\chromedriver\win32\109.0.5414.74\chromedriver.exe
++INFO 21:16:42:904 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 109.0.5414.74 (since Google Chrome 109 is installed in your machine)
++INFO 21:16:42:907 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as C:\Users\jolie\.m2\repository\webdriver\chromedriver\win32\109.0.5414.74\chromedriver.exe
++INFO 21:16:44:658 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 109.0.5414.74 (since Google Chrome 109 is installed in your machine)
++INFO 21:16:44:662 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as C:\Users\jolie\.m2\repository\webdriver\chromedriver\win32\109.0.5414.74\chromedriver.exe
++INFO 21:16:46:457 wdm.WebDriverManager detectDriverVersionFromBrowser:615 Using chromedriver 109.0.5414.74 (since Google Chrome 109 is installed in your machine)
++INFO 21:16:46:459 wdm.WebDriverManager exportDriver:1113 Exporting webdriver.chrome.driver as C:\Users\jolie\.m2\repository\webdriver\chromedriver\win32\109.0.5414.74\chromedriver.exe
+Index: src/test/resources/features/quote.feature
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># Test Automation Exercise - Cucumber\r\n# https://jira.portnov.com/browse/ACF-897\r\n# Author: Anna Verkhovskaya\r\n\r\n@quote\r\nFeature: Quote Test Scenarios\r\n\r\n  Background:\r\n    Given I open url \"https://skryabin.com/market/quote.html\"\r\n    Then I should see page title as \"Get a Quote\"\r\n    Then I resize window to 1920 and 1080\r\n\r\n  @quote1\r\n  Scenario: Verify the responsiveness of Quote application\r\n    #Given I open url \"https://skryabin.com/market/quote.html\"\r\n   # Then I should see page title as \"Get a Quote\"\r\n    #desktop mode\r\n    Then I resize window to 1920 and 1080\r\n    Then element with xpath \"//b[@id='location']\" should be displayed\r\n    Then element with xpath \"//b[@id='location']\" should contain text \"Los Altos, CA 94022\"\r\n    #iphone mode\r\n    Then I resize window to 375 and 667\r\n    Then element with xpath \"//b[@id='location']\" should not be displayed\r\n\r\n  @quote2\r\n  Scenario: Verify Username field\r\n     # Given I open url \"https://skryabin.com/market/quote.html\"\r\n     # Then I should see page title as \"Get a Quote\"\r\n      #Then I resize window to 1920 and 1080\r\n    Then element with xpath \"//input[@name='username']\" should be present\r\n    Then I type \"A\" into element with xpath \"//input[@name='username']\"\r\n    And I click on element with xpath \"//button[@id='formSubmit']\"\r\n    Then element with xpath \"//label[@id='username-error']\" should contain text \"Please enter at least 2 characters.\"\r\n    Then I clear element with xpath \"//input[@name='username']\"\r\n    Then element with xpath \"//label[@id='username-error']\" should have text as \"This field is required.\"\r\n    Then I type \"Ab\" into element with xpath \"//input[@name='username']\"\r\n    And I click on element with xpath \"//button[@id='formSubmit']\"\r\n    Then element with xpath \"//label[@id='username-error']\" should not be displayed\r\n\r\n  @quote3\r\n  Scenario: Verify Name field\r\n    Then I click on element with xpath \"//input[@id='name']\"\r\n    Then element with xpath \"//input[@id='firstName']\" should be displayed\r\n    Then I type \"First\" into element with xpath \"//input[@id='firstName']\"\r\n\r\n    Then element with xpath \"//input[@id='middleName']\" should be displayed\r\n    Then I type \"Middle\" into element with xpath \"//input[@id='middleName']\"\r\n\r\n    Then element with xpath \"//input[@id='lastName']\" should be displayed\r\n    Then I type \"Last\" into element with xpath \"//input[@id='lastName']\"\r\n\r\n    Then I click on element with xpath \"//span[contains(text(),'Save')]\"\r\n    Then I wait for element with xpath \"//input[@id='name']\" to be present\r\n    Then element with xpath \"//input[@id='name']\" should have attribute \"value\" as \"First Middle Last\"\r\n  # test scenario with data driven case\r\n  @quote4\r\n  Scenario Outline: Verify Name field\r\n    Then I click on element with xpath \"//input[@id='name']\"\r\n    Then element with xpath \"//input[@id='firstName']\" should be displayed\r\n    Then I type \"<FirstName>\" into element with xpath \"//input[@id='firstName']\"\r\n\r\n    Then element with xpath \"//input[@id='middleName']\" should be displayed\r\n    Then I type \"<MiddleName>\" into element with xpath \"//input[@id='middleName']\"\r\n\r\n    Then element with xpath \"//input[@id='lastName']\" should be displayed\r\n    Then I type \"<LastName>\" into element with xpath \"//input[@id='lastName']\"\r\n\r\n    Then I click on element with xpath \"//span[contains(text(),'Save')]\"\r\n    Then I wait for element with xpath \"//input[@id='name']\" to be present\r\n    Then element with xpath \"//input[@id='name']\" should have attribute \"value\" as \"<FullName>\"\r\n    Examples:\r\n      | FirstName | MiddleName | LastName | FullName          |\r\n      | First     | Middle     | Last     | First Middle Last |\r\n      |           | A          | B        | A B               |
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/resources/features/quote.feature b/src/test/resources/features/quote.feature
+--- a/src/test/resources/features/quote.feature	(revision a44909305d033eed5d219c8432ea57fd58007e25)
++++ b/src/test/resources/features/quote.feature	(date 1676606683240)
+@@ -71,4 +71,6 @@
+     Examples:
+       | FirstName | MiddleName | LastName | FullName          |
+       | First     | Middle     | Last     | First Middle Last |
+-      |           | A          | B        | A B               |
+\ No newline at end of file
++      |           | A          | B        | A B               |
++
++    #TestSulima_M
+\ No newline at end of file
+Index: src/test/resources/features/Mikhail_S_HomePage.feature
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/resources/features/Mikhail_S_HomePage.feature b/src/test/resources/features/Mikhail_S_HomePage.feature
+new file mode 100644
+--- /dev/null	(date 1676606683247)
++++ b/src/test/resources/features/Mikhail_S_HomePage.feature	(date 1676606683247)
+@@ -0,0 +1,2 @@
++@askapplication
++#TestSulima_M
+Index: src/test/resources/features/webdriver.feature
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># Author: Anna Verkhovskaya\r\n  #Exercises with Selenium WebDriver\r\n\r\n@webdriver\r\n  Feature: Exercises with Selenium WebDriver\r\n\r\n    Background:\r\n      Given I navigate to \"quote\"\r\n      Then I modify window to max size\r\n\r\n    @webdriver1\r\n    Scenario: Load Web page and Verify page details\r\n      # Given I navigate to \"quote\"\r\n      #Then I modify window to max size\r\n      Then I get page information\r\n      Then I wait for 5 sec\r\n\r\n\r\n    @webdriver2\r\n    Scenario: Email field validation\r\n     # Move first 2 statements to Background\r\n     # Given I navigate to \"quote\"\r\n     # Then I modify window to max size\r\n      When I type \"abc\" to email field\r\n      And I click Submit button\r\n      Then error message \"Please enter a valid email address.\" should be displayed\r\n      Then I clear email field\r\n      Then error message \"This field is required.\" should be displayed\r\n      Then I type \"email@emailserver.com\" to email field\r\n      Then no error message should be displayed for email field\r\n      Then take a break\r\n\r\n\r\n\r\n\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/resources/features/webdriver.feature b/src/test/resources/features/webdriver.feature
+--- a/src/test/resources/features/webdriver.feature	(revision a44909305d033eed5d219c8432ea57fd58007e25)
++++ b/src/test/resources/features/webdriver.feature	(date 1676606683220)
+@@ -30,7 +30,7 @@
+       Then no error message should be displayed for email field
+       Then take a break
+ 
+-
++#TestSulima_M
+ 
+ 
+ 
+Index: .idea/ask-webdriver-java-cucumber-ACF011023.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule=\"true\" type=\"JAVA_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\" LANGUAGE_LEVEL=\"JDK_11\">\r\n    <output url=\"file://$MODULE_DIR$/target/classes\" />\r\n    <output-test url=\"file://$MODULE_DIR$/target/test-classes\" />\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src/main/java\" isTestSource=\"false\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src/main/resources\" type=\"java-resource\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src/test/java\" isTestSource=\"true\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src/test/resources\" type=\"java-test-resource\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/target\" />\r\n    </content>\r\n    <orderEntry type=\"jdk\" jdkName=\"11\" jdkType=\"JavaSDK\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n    <orderEntry type=\"library\" name=\"Maven: junit:junit:4.13\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.hamcrest:hamcrest-core:1.3\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.apache.maven.surefire:surefire-junit47:3.0.0-M4\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.apache.maven.surefire:common-junit48:3.0.0-M4\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.apache.maven.surefire:common-junit4:3.0.0-M4\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.apache.maven.surefire:common-junit3:3.0.0-M4\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.apache.maven.surefire:common-java5:3.0.0-M4\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.apache.maven.surefire:surefire-grouper:3.0.0-M4\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.apache.maven.surefire:surefire-api:3.0.0-M4\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.apache.maven.surefire:surefire-logger-api:3.0.0-M4\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.testng:testng:7.1.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.beust:jcommander:1.72\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.google.inject:guice:no_aop:4.1.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: javax.inject:javax.inject:1\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: aopalliance:aopalliance:1.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.yaml:snakeyaml:1.21\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: io.github.bonigarcia:webdrivermanager:3.8.1\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: org.slf4j:slf4j-api:1.7.25\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: com.google.code.gson:gson:2.8.5\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.apache.commons:commons-lang3:3.8.1\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.apache.httpcomponents:httpclient:4.5.6\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.apache.httpcomponents:httpcore:4.4.10\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: commons-codec:commons-codec:1.10\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: org.rauschig:jarchivelib:1.0.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: org.apache.commons:commons-compress:1.18\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: org.jsoup:jsoup:1.11.3\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.seleniumhq.selenium:selenium-java:3.141.59\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.seleniumhq.selenium:selenium-edge-driver:3.141.59\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.seleniumhq.selenium:selenium-ie-driver:3.141.59\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.seleniumhq.selenium:selenium-opera-driver:3.141.59\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: net.bytebuddy:byte-buddy:1.8.15\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.apache.commons:commons-exec:1.3\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.google.guava:guava:25.0-jre\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.google.code.findbugs:jsr305:1.3.9\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.checkerframework:checker-compat-qual:2.0.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.google.errorprone:error_prone_annotations:2.1.3\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.google.j2objc:j2objc-annotations:1.1\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.codehaus.mojo:animal-sniffer-annotations:1.14\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.squareup.okhttp3:okhttp:3.11.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.squareup.okio:okio:1.14.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.seleniumhq.selenium:selenium-api:3.141.59\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.seleniumhq.selenium:selenium-support:3.141.59\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.seleniumhq.selenium:selenium-chrome-driver:3.141.59\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.seleniumhq.selenium:selenium-safari-driver:3.141.59\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.seleniumhq.selenium:selenium-firefox-driver:3.141.59\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.seleniumhq.selenium:selenium-remote-driver:3.141.59\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.seleniumhq.selenium:selenium-server:3.141.59\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: net.jcip:jcip-annotations:1.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.seleniumhq.selenium:jetty-repacked:9.4.12.v20180830\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: javax.servlet:javax.servlet-api:3.1.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: net.sourceforge.htmlunit:htmlunit:2.38.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: xalan:xalan:2.7.2\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: xalan:serializer:2.7.2\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.apache.commons:commons-text:1.8\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.apache.httpcomponents:httpmime:4.5.12\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: net.sourceforge.htmlunit:htmlunit-core-js:2.38.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: net.sourceforge.htmlunit:neko-htmlunit:2.38.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: xerces:xercesImpl:2.12.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: xml-apis:xml-apis:1.4.01\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: net.sourceforge.htmlunit:htmlunit-cssparser:1.5.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: commons-logging:commons-logging:1.2\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: commons-net:commons-net:3.6\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.brotli:dec:0.1.2\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.eclipse.jetty.websocket:websocket-client:9.4.27.v20200227\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.eclipse.jetty:jetty-client:9.4.27.v20200227\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.eclipse.jetty:jetty-http:9.4.27.v20200227\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.eclipse.jetty:jetty-xml:9.4.27.v20200227\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.eclipse.jetty:jetty-util:9.4.27.v20200227\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.eclipse.jetty:jetty-io:9.4.27.v20200227\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.eclipse.jetty.websocket:websocket-common:9.4.27.v20200227\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.eclipse.jetty.websocket:websocket-api:9.4.27.v20200227\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.seleniumhq.selenium:htmlunit-driver:2.38.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: io.cucumber:cucumber-java:4.4.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: io.cucumber:cucumber-core:4.4.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: io.cucumber:gherkin:5.1.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: io.cucumber:tag-expressions:1.1.1\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: io.cucumber:cucumber-java8:4.4.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: net.jodah:typetools:0.5.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: io.cucumber:cucumber-junit:4.4.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: io.cucumber:cucumber-testng:4.4.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: io.cucumber:cucumber-expressions:9.0.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.apiguardian:apiguardian-api:1.1.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: io.cucumber:datatable:3.3.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.assertj:assertj-core:3.15.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: commons-io:commons-io:2.6\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: io.rest-assured:rest-assured:4.2.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: org.codehaus.groovy:groovy:2.5.8\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: org.codehaus.groovy:groovy-xml:2.5.8\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: org.hamcrest:hamcrest:2.1\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: org.ccil.cowan.tagsoup:tagsoup:1.2.1\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: io.rest-assured:json-path:4.2.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: org.codehaus.groovy:groovy-json:2.5.8\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: io.rest-assured:rest-assured-common:4.2.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: io.rest-assured:xml-path:4.2.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: jakarta.xml.bind:jakarta.xml.bind-api:2.3.2\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: jakarta.activation:jakarta.activation-api:1.2.1\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: com.sun.xml.bind:jaxb-osgi:2.3.0.1\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: org.apache.sling:org.apache.sling.javax.activation:0.1.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: javax.activation:activation:1.1.1\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.fasterxml.jackson.core:jackson-databind:2.10.2\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.fasterxml.jackson.core:jackson-annotations:2.10.2\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.fasterxml.jackson.core:jackson-core:2.10.2\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: org.hamcrest:hamcrest-all:1.3\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.apache.logging.log4j:log4j-core:2.13.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.apache.logging.log4j:log4j-api:2.13.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: org.apache.logging.log4j:log4j-slf4j-impl:2.13.0\" level=\"project\" />\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/ask-webdriver-java-cucumber-ACF011023.iml b/.idea/ask-webdriver-java-cucumber-ACF011023.iml
+--- a/.idea/ask-webdriver-java-cucumber-ACF011023.iml	(revision a44909305d033eed5d219c8432ea57fd58007e25)
++++ b/.idea/ask-webdriver-java-cucumber-ACF011023.iml	(date 1676601227295)
+@@ -10,7 +10,7 @@
+       <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
+       <excludeFolder url="file://$MODULE_DIR$/target" />
+     </content>
+-    <orderEntry type="jdk" jdkName="11" jdkType="JavaSDK" />
++    <orderEntry type="inheritedJdk" />
+     <orderEntry type="sourceFolder" forTests="false" />
+     <orderEntry type="library" name="Maven: junit:junit:4.13" level="project" />
+     <orderEntry type="library" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
+Index: src/test/resources/features/predefined.feature
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>@predefined\r\nFeature: Smoke steps\r\n\r\n  @predefined1\r\n  @regression\r\n  Scenario: Predefined steps for Google\r\n    Given I open url \"https://google.com\"\r\n    Then I should see page title as \"Google\"\r\n    Then I type \"Cucumber\" into element with xpath \"//input[@name='q']\"\r\n    Then I click on element using JavaScript with xpath \"(//input[@name='btnK'])[1]\"\r\n    # Then I wait for 2 sec\r\n    Then I wait for element with xpath \"//*[@id='res']\" to be present\r\n    Then I should see page title contains \"- Google Search\"\r\n    Then element with xpath \"//*[@id='res']\" should contain text \"Cucumber\"\r\n\r\n  @predefined2\r\n  Scenario: Search Engine for  https://ekoru.org\r\n    Given I open url \"https://ekoru.org\"\r\n    Then I should see page title contains \"Ekoru\"\r\n    Then element with xpath \"//input[@id='fld_q']\" should be present\r\n    When I type \"Cucumber\" into element with xpath \"//input[@id='fld_q']\"\r\n    Then I click on element with xpath \" //div[@id='btn_search']\"\r\n    Then I wait for 3 sec\r\n    Then element with xpath \"//div[@id='serp_organic']/div[1]/div[@class='serp-result-web-text']\" should contain text \"Cucumber\"\r\n  #//div[@class='serp-result-web-text']\r\n\r\n  @predefined3\r\n  Scenario: Search Engine for https://www.wiki.com/\r\n    Given I open url \"https://www.wiki.com/\"\r\n    Then I should see page title as \"Wiki.com\"\r\n    Then element with xpath \"//input[@name='q']\" should be present\r\n    When I type \"Cucumber\" into element with xpath \"//input[@name='q']\"\r\n    Then I click on element with xpath \"//input[@name='btnG']\"\r\n    Then I wait for 2 sec\r\n    Then I should see page title as \"Form is not secure\"\r\n    Then I click on element with xpath \"//button[@id='proceed-button']\"\r\n    Then I wait for 2 sec\r\n    Then I should see page title as \"Wiki.com\"\r\n    Then element with xpath \"//*[contains(text(),'Cucumber')]\" should contain text \"Cucumber\"\r\n\r\n\r\n\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/resources/features/predefined.feature b/src/test/resources/features/predefined.feature
+--- a/src/test/resources/features/predefined.feature	(revision a44909305d033eed5d219c8432ea57fd58007e25)
++++ b/src/test/resources/features/predefined.feature	(date 1676606683253)
+@@ -38,7 +38,7 @@
+     Then I should see page title as "Wiki.com"
+     Then element with xpath "//*[contains(text(),'Cucumber')]" should contain text "Cucumber"
+ 
+-
++#TestSulima_M
+ 
+ 
+ 
+Index: src/test/resources/features/java.feature
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>  #Java practice\r\n  #ACF-924\r\n  #Author Anna Verkhovskaya\r\n    @java\r\n    Feature: Java coding practice\r\n\r\n      @java1\r\n      Scenario: Hello World\r\n        Given I print Hello World\r\n\r\n      @java2\r\n      Scenario: Examples with strings\r\n        Given I print \"Hello Team!\"\r\n        Then I print \"Good\" and \"Day\"\r\n\r\n      @java3\r\n      Scenario Outline: Examples with numbers\r\n        Given I calculate results with <iNum1> and <iNum2>\r\n        Then I identify the number <iNum3> is odd or even\r\n        Examples:\r\n          | iNum1 | iNum2 | iNum3 |\r\n          | 3     | 2     | 5     |\r\n          | 3     | 5     | 6     |\r\n          | 0     | 10    | 10    |\r\n\r\n      @java4\r\n      Scenario: Example with arrays\r\n        Given I want to print all days of the week
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/resources/features/java.feature b/src/test/resources/features/java.feature
+--- a/src/test/resources/features/java.feature	(revision a44909305d033eed5d219c8432ea57fd58007e25)
++++ b/src/test/resources/features/java.feature	(date 1676606683205)
+@@ -25,4 +25,6 @@
+ 
+       @java4
+       Scenario: Example with arrays
+-        Given I want to print all days of the week
+\ No newline at end of file
++        Given I want to print all days of the week
++
++        #TestSulima_M
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"57c2f924-8d49-4c85-8d2d-4c92586147b0\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/definitions/JavaStepDefs.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/definitions/JavaStepDefs.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/test-classes/definitions/JavaStepDefs.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/test-classes/definitions/JavaStepDefs.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/test-classes/support/Hooks.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/test-classes/support/Hooks.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/webdriver.log\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/webdriver.log\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"generalSettings\">\r\n      <MavenGeneralSettings>\r\n        <option name=\"useMavenConfig\" value=\"true\" />\r\n      </MavenGeneralSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2LFmqqQaMebMGCvpzof64Z1fjOA\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"project.structure.last.edited\" value=\"Project\" />\r\n    <property name=\"project.structure.proportion\" value=\"0.15\" />\r\n    <property name=\"project.structure.side.proportion\" value=\"0.2\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"preferences.pluginManager\" />\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Cucumber Java.Scenario: Email field validation\">\r\n    <configuration name=\"Scenario: Email field validation\" type=\"CucumberJavaRunConfigurationType\" factoryName=\"Cucumber java\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"CUCUMBER_CORE_VERSION\" value=\"4\" />\r\n      <option name=\"FILE_PATH\" value=\"$PROJECT_DIR$/src/test/resources/features/webdriver.feature\" />\r\n      <option name=\"GLUE\" value=\"support definitions\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"cucumber.api.cli.Main\" />\r\n      <module name=\"ask-webdriver-java-cucumber-ACF011023\" />\r\n      <option name=\"NAME_FILTER\" value=\"^Email field validation$\" />\r\n      <option name=\"PROGRAM_PARAMETERS\" value=\" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Email field validation$&quot;\" />\r\n      <option name=\"SUGGESTED_NAME\" value=\"Scenario: Email field validation\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$MODULE_WORKING_DIR$\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"cucumber.api.cli.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Scenario: Example with arrays\" type=\"CucumberJavaRunConfigurationType\" factoryName=\"Cucumber java\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"CUCUMBER_CORE_VERSION\" value=\"4\" />\r\n      <option name=\"FILE_PATH\" value=\"$PROJECT_DIR$/src/test/resources/features/java.feature\" />\r\n      <option name=\"GLUE\" value=\"definitions\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"cucumber.api.cli.Main\" />\r\n      <module name=\"ask-webdriver-java-cucumber-ACF011023\" />\r\n      <option name=\"NAME_FILTER\" value=\"^Example with arrays$\" />\r\n      <option name=\"PROGRAM_PARAMETERS\" value=\" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Example with arrays$&quot;\" />\r\n      <option name=\"SUGGESTED_NAME\" value=\"Scenario: Example with arrays\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$MODULE_WORKING_DIR$\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"cucumber.api.cli.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Scenario: Examples with numbers\" type=\"CucumberJavaRunConfigurationType\" factoryName=\"Cucumber java\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"CUCUMBER_CORE_VERSION\" value=\"4\" />\r\n      <option name=\"FILE_PATH\" value=\"$PROJECT_DIR$/src/test/resources/features/java.feature\" />\r\n      <option name=\"GLUE\" value=\"definitions\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"cucumber.api.cli.Main\" />\r\n      <module name=\"ask-webdriver-java-cucumber-ACF011023\" />\r\n      <option name=\"NAME_FILTER\" value=\"^Examples with numbers$\" />\r\n      <option name=\"PROGRAM_PARAMETERS\" value=\" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Examples with numbers$&quot;\" />\r\n      <option name=\"SUGGESTED_NAME\" value=\"Scenario: Examples with numbers\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$MODULE_WORKING_DIR$\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"cucumber.api.cli.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Scenario: Examples with strings\" type=\"CucumberJavaRunConfigurationType\" factoryName=\"Cucumber java\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"CUCUMBER_CORE_VERSION\" value=\"4\" />\r\n      <option name=\"FILE_PATH\" value=\"$PROJECT_DIR$/src/test/resources/features/java.feature\" />\r\n      <option name=\"GLUE\" value=\"definitions\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"cucumber.api.cli.Main\" />\r\n      <module name=\"ask-webdriver-java-cucumber-ACF011023\" />\r\n      <option name=\"NAME_FILTER\" value=\"^Examples with strings$\" />\r\n      <option name=\"PROGRAM_PARAMETERS\" value=\" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Examples with strings$&quot;\" />\r\n      <option name=\"SUGGESTED_NAME\" value=\"Scenario: Examples with strings\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$MODULE_WORKING_DIR$\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"cucumber.api.cli.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Scenario: Load Web page and Verify page details\" type=\"CucumberJavaRunConfigurationType\" factoryName=\"Cucumber java\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"CUCUMBER_CORE_VERSION\" value=\"4\" />\r\n      <option name=\"FILE_PATH\" value=\"$PROJECT_DIR$/src/test/resources/features/webdriver.feature\" />\r\n      <option name=\"GLUE\" value=\"support definitions\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"cucumber.api.cli.Main\" />\r\n      <module name=\"ask-webdriver-java-cucumber-ACF011023\" />\r\n      <option name=\"NAME_FILTER\" value=\"^Load Web page and Verify page details$\" />\r\n      <option name=\"PROGRAM_PARAMETERS\" value=\" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Load Web page and Verify page details$&quot;\" />\r\n      <shortenClasspath name=\"NONE\" />\r\n      <option name=\"SUGGESTED_NAME\" value=\"Scenario: Load Web page and Verify page details\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$MODULE_WORKING_DIR$\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"cucumber.api.cli.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <list>\r\n      <item itemvalue=\"Cucumber Java.Scenario: Examples with strings\" />\r\n      <item itemvalue=\"Cucumber Java.Scenario: Examples with numbers\" />\r\n      <item itemvalue=\"Cucumber Java.Scenario: Example with arrays\" />\r\n      <item itemvalue=\"Cucumber Java.Scenario: Load Web page and Verify page details\" />\r\n      <item itemvalue=\"Cucumber Java.Scenario: Email field validation\" />\r\n    </list>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Cucumber Java.Scenario: Email field validation\" />\r\n        <item itemvalue=\"Cucumber Java.Scenario: Load Web page and Verify page details\" />\r\n        <item itemvalue=\"Cucumber Java.Scenario: Examples with numbers\" />\r\n        <item itemvalue=\"Cucumber Java.Scenario: Example with arrays\" />\r\n        <item itemvalue=\"Cucumber Java.Scenario: Examples with strings\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"57c2f924-8d49-4c85-8d2d-4c92586147b0\" name=\"Changes\" comment=\"\" />\r\n      <created>1675475400131</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1675475400131</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\r\n    <expand />\r\n    <select />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision a44909305d033eed5d219c8432ea57fd58007e25)
++++ b/.idea/workspace.xml	(date 1676606683388)
+@@ -5,9 +5,18 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="57c2f924-8d49-4c85-8d2d-4c92586147b0" name="Changes" comment="">
++      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Mikhail_S_ACF-871.feature" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Mikhail_S_ACF-898.feature" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Mikhail_S_ACF-951.feature" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Mikhail_S_HomePage.feature" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/ask-webdriver-java-cucumber-ACF011023.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ask-webdriver-java-cucumber-ACF011023.iml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/definitions/JavaStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/definitions/JavaStepDefs.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/test/resources/features/java.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/java.feature" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/test/resources/features/predefined.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/predefined.feature" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/test/resources/features/quote.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/quote.feature" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/test/resources/features/webdriver.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/webdriver.feature" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/target/test-classes/definitions/JavaStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/definitions/JavaStepDefs.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/test-classes/definitions/webDriverStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/definitions/webDriverStepDefs.class" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/target/test-classes/support/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/support/Hooks.class" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/target/webdriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/webdriver.log" afterDir="false" />
+     </list>
+@@ -16,50 +25,55 @@
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+   </component>
+-  <component name="FileTemplateManagerImpl">
+-    <option name="RECENT_TEMPLATES">
+-      <list>
+-        <option value="Class" />
+-      </list>
++  <component name="Git.Merge.Settings">
++    <option name="BRANCH" value="origin/main" />
++  </component>
++  <component name="Git.Settings">
++    <favorite-branches>
++      <branch-storage>
++        <map>
++          <entry type="LOCAL">
++            <value>
++              <list>
++                <branch-info repo="$PROJECT_DIR$" source="Mikhail_S" />
++              </list>
++            </value>
++          </entry>
++        </map>
++      </branch-storage>
++    </favorite-branches>
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="Mikhail_S_TaskJiraID" />
++      </map>
+     </option>
+-  </component>
+-  <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+-  </component>
+-  <component name="MavenImportPreferences">
+-    <option name="generalSettings">
+-      <MavenGeneralSettings>
+-        <option name="useMavenConfig" value="true" />
+-      </MavenGeneralSettings>
+-    </option>
+   </component>
+   <component name="ProjectId" id="2LFmqqQaMebMGCvpzof64Z1fjOA" />
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">
+-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+-    <property name="project.structure.last.edited" value="Project" />
+-    <property name="project.structure.proportion" value="0.15" />
+-    <property name="project.structure.side.proportion" value="0.2" />
+-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+-  </component>
+-  <component name="RunManager" selected="Cucumber Java.Scenario: Email field validation">
+-    <configuration name="Scenario: Email field validation" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
++    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
++    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
++  }
++}</component>
++  <component name="RunManager" selected="Cucumber Java.Feature: java">
++    <configuration name="Feature: java" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+       <option name="CUCUMBER_CORE_VERSION" value="4" />
+-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/webdriver.feature" />
++      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/java.feature" />
+       <option name="GLUE" value="support definitions" />
+       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+       <module name="ask-webdriver-java-cucumber-ACF011023" />
+-      <option name="NAME_FILTER" value="^Email field validation$" />
+-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Email field validation$&quot;" />
+-      <option name="SUGGESTED_NAME" value="Scenario: Email field validation" />
++      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
++      <option name="SUGGESTED_NAME" value="Feature: java" />
+       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+       <extension name="coverage">
+         <pattern>
+@@ -71,15 +85,14 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="Scenario: Example with arrays" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
++    <configuration name="Feature: predefined" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+       <option name="CUCUMBER_CORE_VERSION" value="4" />
+-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/java.feature" />
+-      <option name="GLUE" value="definitions" />
++      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/predefined.feature" />
++      <option name="GLUE" value="support definitions" />
+       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+       <module name="ask-webdriver-java-cucumber-ACF011023" />
+-      <option name="NAME_FILTER" value="^Example with arrays$" />
+-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Example with arrays$&quot;" />
+-      <option name="SUGGESTED_NAME" value="Scenario: Example with arrays" />
++      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
++      <option name="SUGGESTED_NAME" value="Feature: predefined" />
+       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+       <extension name="coverage">
+         <pattern>
+@@ -91,15 +104,14 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="Scenario: Examples with numbers" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
++    <configuration name="Feature: quote" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+       <option name="CUCUMBER_CORE_VERSION" value="4" />
+-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/java.feature" />
+-      <option name="GLUE" value="definitions" />
++      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/quote.feature" />
++      <option name="GLUE" value="support definitions" />
+       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+       <module name="ask-webdriver-java-cucumber-ACF011023" />
+-      <option name="NAME_FILTER" value="^Examples with numbers$" />
+-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Examples with numbers$&quot;" />
+-      <option name="SUGGESTED_NAME" value="Scenario: Examples with numbers" />
++      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
++      <option name="SUGGESTED_NAME" value="Feature: quote" />
+       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+       <extension name="coverage">
+         <pattern>
+@@ -111,61 +123,24 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="Scenario: Examples with strings" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+-      <option name="CUCUMBER_CORE_VERSION" value="4" />
+-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/java.feature" />
+-      <option name="GLUE" value="definitions" />
+-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+-      <module name="ask-webdriver-java-cucumber-ACF011023" />
+-      <option name="NAME_FILTER" value="^Examples with strings$" />
+-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Examples with strings$&quot;" />
+-      <option name="SUGGESTED_NAME" value="Scenario: Examples with strings" />
+-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="cucumber.api.cli.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
++    <configuration default="true" type="JetRunConfigurationType">
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="Scenario: Load Web page and Verify page details" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+-      <option name="CUCUMBER_CORE_VERSION" value="4" />
+-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/webdriver.feature" />
+-      <option name="GLUE" value="support definitions" />
+-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+-      <module name="ask-webdriver-java-cucumber-ACF011023" />
+-      <option name="NAME_FILTER" value="^Load Web page and Verify page details$" />
+-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Load Web page and Verify page details$&quot;" />
+-      <shortenClasspath name="NONE" />
+-      <option name="SUGGESTED_NAME" value="Scenario: Load Web page and Verify page details" />
+-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="cucumber.api.cli.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
++    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
++      <option name="filePath" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <list>
+-      <item itemvalue="Cucumber Java.Scenario: Examples with strings" />
+-      <item itemvalue="Cucumber Java.Scenario: Examples with numbers" />
+-      <item itemvalue="Cucumber Java.Scenario: Example with arrays" />
+-      <item itemvalue="Cucumber Java.Scenario: Load Web page and Verify page details" />
+-      <item itemvalue="Cucumber Java.Scenario: Email field validation" />
+-    </list>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="Cucumber Java.Scenario: Email field validation" />
+-        <item itemvalue="Cucumber Java.Scenario: Load Web page and Verify page details" />
+-        <item itemvalue="Cucumber Java.Scenario: Examples with numbers" />
+-        <item itemvalue="Cucumber Java.Scenario: Example with arrays" />
+-        <item itemvalue="Cucumber Java.Scenario: Examples with strings" />
++        <item itemvalue="Cucumber Java.Feature: quote" />
++        <item itemvalue="Cucumber Java.Feature: predefined" />
++        <item itemvalue="Cucumber Java.Feature: java" />
++        <item itemvalue="Cucumber Java.Feature: java" />
++        <item itemvalue="Cucumber Java.Feature: quote" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -185,14 +160,22 @@
+       <map>
+         <entry key="MAIN">
+           <value>
+-            <State />
++            <State>
++              <option name="FILTERS">
++                <map>
++                  <entry key="branch">
++                    <value>
++                      <list>
++                        <option value="main" />
++                      </list>
++                    </value>
++                  </entry>
++                </map>
++              </option>
++            </State>
+           </value>
+         </entry>
+       </map>
+     </option>
+-  </component>
+-  <component name="XSLT-Support.FileAssociations.UIState">
+-    <expand />
+-    <select />
+   </component>
+ </project>
+\ No newline at end of file
